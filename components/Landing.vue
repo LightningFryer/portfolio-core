@@ -23,8 +23,10 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="flex w-screen h-screen justify-center items-center">
-    <div class="flex flex-col gap-y-16 w-[60%] justify-center items-center mt-10">
+  <div class="landing-sec flex w-screen h-screen justify-center items-center">
+    <div
+      class="flex flex-col gap-y-16 w-[60%] justify-center items-center mt-10"
+    >
       <!-- <h1
         class="landing-text text-4xl font-ibm font-thin text-white text-center"
       >
@@ -69,3 +71,22 @@ onMounted(() => {
     </div>
   </div>
 </template>
+
+<style scoped>
+.landing-sec {
+  background-color: transparent;
+  background: radial-gradient(circle, #444444 8%, transparent 1%) 0 0 / 20px
+    20px;
+  background-size: 35px 35px; /* !!!!!THIS SHOULD BE SAME AS THE BACKGROUND POSITION CELL SIZE IN THE KEYFRAME OTHERWISE YOU'LL SEE HORRIBLE STUTTERING!!!!! */
+  animation: moveLeft 2s linear infinite;
+}
+
+@keyframes moveLeft {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 35px -35px; /* Moves by exactly one grid cell size */
+  }
+}
+</style>

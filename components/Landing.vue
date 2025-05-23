@@ -35,17 +35,17 @@ onMounted(() => {
       </h1> -->
       <div class="flex flex-row gap-x-4 justify-center items-center">
         <a
-          class="text-3xl hover:text-4xl font-ibm font-thin hover:font-semibold transition-[font] hover:underline duration-300 text-white"
+          class="text-3xl hover:text-4xl hover:cursor-pointer font-ibm font-thin hover:font-semibold transition-[font] hover:underline duration-300 text-white"
           >whoami?</a
         >
         <p class="text-white text-4xl font-ibm font-thin">|</p>
         <a
-          class="text-3xl hover:text-4xl font-ibm font-thin hover:font-semibold transition-[font] hover:underline duration-300 text-white"
+          class="text-3xl hover:text-4xl hover:cursor-pointer font-ibm font-thin hover:font-semibold transition-[font] hover:underline duration-300 text-white"
           >github</a
         >
         <p class="text-white text-4xl font-ibm font-thin">|</p>
         <a
-          class="text-3xl hover:text-4xl font-ibm font-thin hover:font-semibold transition-[font] hover:underline duration-300 text-white"
+          class="text-3xl hover:text-4xl hover:cursor-pointer font-ibm font-thin hover:font-semibold transition-[font] hover:underline duration-300 text-white"
           >linkedin</a
         >
       </div>
@@ -57,13 +57,13 @@ onMounted(() => {
           <a
             target="_blank"
             href="https://www.clubgraphica.tech/"
-            class="website-link text-2xl opacity-0 translate-y-[100%] hover:text-4xl font-ibm font-thin hover:font-semibold transition-[font] hover:underline duration-300 text-white"
+            class="website-link text-2xl opacity-0 translate-y-[100%] hover:text-3xl font-ibm font-thin hover:font-semibold transition-[font] hover:underline duration-300 text-white"
             >clubgraphica.tech</a
           >
           <a
             target="_blank"
             href="https://electrovista-core-rework.vercel.app/"
-            class="website-link text-2xl opacity-0 translate-y-[100%] hover:text-4xl font-ibm font-thin hover:font-semibold transition-[font] hover:underline duration-300 text-white"
+            class="website-link text-2xl opacity-0 translate-y-[100%] hover:text-3xl font-ibm font-thin hover:font-semibold transition-[font] hover:underline duration-300 text-white"
             >electrovista.tech</a
           >
         </div>

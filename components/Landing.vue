@@ -24,26 +24,47 @@ onMounted(() => {
 
 <template>
   <div class="flex w-screen h-screen justify-center items-center">
-    <div class="flex flex-col gap-y-7 w-[60%] justify-center items-center">
-      <h1
+    <div class="flex flex-col gap-y-16 w-[60%] justify-center items-center mt-10">
+      <!-- <h1
         class="landing-text text-4xl font-ibm font-thin text-white text-center"
       >
         there is no need for a good portfolio when you have websites to show for
         it
-      </h1>
-      <div class="flex flex-row gap-x-10">
+      </h1> -->
+      <div class="flex flex-row gap-x-4 justify-center items-center">
         <a
-          target="_blank"
-          href="https://www.clubgraphica.tech/"
-          class="website-link text-3xl opacity-0 translate-y-[100%] hover:text-4xl font-ibm font-thin hover:font-semibold transition-[font] hover:underline duration-300 text-white"
-          >clubgraphica.tech</a
+          class="text-3xl hover:text-4xl font-ibm font-thin hover:font-semibold transition-[font] hover:underline duration-300 text-white"
+          >whoami?</a
         >
+        <p class="text-white text-4xl font-ibm font-thin">|</p>
         <a
-          target="_blank"
-          href="https://electrovista-core-rework.vercel.app/"
-          class="website-link text-3xl opacity-0 translate-y-[100%] hover:text-4xl font-ibm font-thin hover:font-semibold transition-[font] hover:underline duration-300 text-white"
-          >electrovista.tech</a
+          class="text-3xl hover:text-4xl font-ibm font-thin hover:font-semibold transition-[font] hover:underline duration-300 text-white"
+          >github</a
         >
+        <p class="text-white text-4xl font-ibm font-thin">|</p>
+        <a
+          class="text-3xl hover:text-4xl font-ibm font-thin hover:font-semibold transition-[font] hover:underline duration-300 text-white"
+          >linkedin</a
+        >
+      </div>
+      <div class="flex flex-col justify-center items-center gap-y-3">
+        <div>
+          <p class="text-white font-ibm font-thin text-3xl">my websites</p>
+        </div>
+        <div class="flex flex-row gap-x-10">
+          <a
+            target="_blank"
+            href="https://www.clubgraphica.tech/"
+            class="website-link text-2xl opacity-0 translate-y-[100%] hover:text-4xl font-ibm font-thin hover:font-semibold transition-[font] hover:underline duration-300 text-white"
+            >clubgraphica.tech</a
+          >
+          <a
+            target="_blank"
+            href="https://electrovista-core-rework.vercel.app/"
+            class="website-link text-2xl opacity-0 translate-y-[100%] hover:text-4xl font-ibm font-thin hover:font-semibold transition-[font] hover:underline duration-300 text-white"
+            >electrovista.tech</a
+          >
+        </div>
       </div>
     </div>
   </div>

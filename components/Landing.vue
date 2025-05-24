@@ -1,7 +1,10 @@
 <script setup>
 import gsap from "gsap";
 import { SplitText } from "gsap/SplitText";
-gsap.registerPlugin(SplitText);
+
+if (import.meta.client) {
+  gsap.registerPlugin(SplitText);
+}
 
 onMounted(() => {
   const landingText = new SplitText(".landing-text");
